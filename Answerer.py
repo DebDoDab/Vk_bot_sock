@@ -4,6 +4,7 @@ from data import *
 import vk
 import random
 
+
 def lottery(message, user_id):
     s = ""
     random.seed()
