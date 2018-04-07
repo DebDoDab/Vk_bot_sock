@@ -13,12 +13,6 @@ app = Flask(__name__)
 def hello_world():
     return 'Hello from DebDoDab!'
 
-"""
-def write_msg(user_id, s):
-    s = "Доброго ранку"
-    api.messages.send(access_token=token, user_id='366018072', message=s)
-    api.messages.send(access_token=token, user_id='177933956', message=s)
-"""
 
 @app.route('/', methods=['POST'])
 def processing():
