@@ -7,4 +7,3 @@ last_msg = {}
 
 main_admin = 177933956
 id_group = 160224039
-
